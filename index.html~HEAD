@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Capstone</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="html5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="html5/css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+</head>
+
+
+<body>
+  <nav id="navbar-site" class="navbar navbar-dark bg-success navbar-expand-sm sticky-top">
+    <div class="container container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Products & Service</a></li>
+      </ul>
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control" type="text" placeholder="Search">
+        <i class="fas fa-search" style="font-size: 30px; padding-left: 10px"></i>
+        <!-- <button class="btn btn-success" type="submit">Search</button> -->
+      </form>
+    </div>
+  </nav>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-responsive" src="html5/img/field.jpg" alt="Los Angeles" width="1100" height="500">
+        <div class="carousel-caption">
+          <h2 class="captionText">A nonprofit that only wishes to serve...</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-responsive" src="html5/img/image7.jpg" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <h2 class="captionText">we <em class="font-weight-bold">eliminate</em> food waste, household by household,<br> by composting <br> and, in the end, <em>lower</em> your carbon footprint</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-responsive" src="html5/img/soil.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h2 class="captionText">Welcome to Black Gold</h2>
+          <div class="carousel-caption indexCaption">
+            <h6 class="">Mission: To help clean the environment by directly reducing greenhouse gases by composting</h6>
+            <h6 class="">Vision: Slow down the risks that greenhouse gases impose on the environment and contribute to the fight against climate change</h6>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+  </div>
+
+
+  <div class="row" style="width:100%;">
+    <div class="col-lg-5">
+      <img style="width: 90%; height: 400px; " src="html5/img/image6.JPG" alt="">
+    </div>
+    <div class="container-fluid col-lg-7 ">
+      <div style="padding-top: 2.8em">
+        <h2>Closed-Bin</h2>
+        <p class="content">
+          Closed bins are usually made from recycled plastic and can come in different shapes—from square to cylindrical. All options have a lid to cover the container. These bins are a good cold-composting choice for urban and suburban locations. They do, however,
+          present some difficulties. They cannot be used for hot composting, for example, because the closed bin makes it difficult to maintain the required temperature. The containers also hold a limited volume of material.
+          <div class="mt-2"></div>
+          Harvesting from a closed bin can be challenging because the openings are only about 1 foot above soil level. To make the job easier, you can move the entire unit to another spot. These bins typically have no bottom, so the compost materials will drop
+          out when you lift the bin.
+          <div class="mt-2"></div>
+          Fork what is at the top of the compost pile into the new bin location, and harvest what has decomposed on the bottom. Closed bins typically run between $50 and $250. Municipalities sometimes offer this version to residents at a reasonable cost.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="border-top: .03em solid lightgray; width: 100%;  margin-left: 0px">
+    <div class="container-fluid col-lg-7">
+
+      <div style="padding-top: 2.8em">
+        <h2>Pit-Composting</h2>
+        <p class="content">
+          <p class="lead text-justify">For pit composting, holes or trenches are dug to bury your waste. After that, you sit back and forget about it, while the organic materials gradually break down over a period of six months to a year. This method is effective for those who want
+            their decomposing organic matter to be completely out of sight. The trench is also a good place to stick those weedy plants you have pulled up. If buried deep enough, the weed seeds will not see the light of day, so they won’t resprout.</p>
+          <p class="lead text-justify">The hole or trench is awkward to harvest, though, so it is probably best used to enrich an area you ultimately want to plant in. This method comes at no cost but requires extra labor for digging at a reasonable cost.</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="col-4" style="padding-right: 0px">
+      <img style="width: 100%; height: 400px" src="html5/img/image5.jpeg" alt="">
+    </div>
+  </div>
+  <div class="row " style="border-top: .03em solid lightgray; width: 100%">
+    <div class="col-lg-4">
+      <img style="width: 100%;" src="html5/img/image9.jpeg" alt="">
+    </div>
+    <div class="container-fluid col-lg-7 ">
+      <div style="padding-top: 2.8em">
+        <h2>Open-bin composting</h2>
+        <p class="content">
+          <p class="lead text-justify">Open bins are an excellent way to do hot or cold composting, which makes this option my favorite. These types of bins typically use either wire fencing or wood to create a neat, structured area to stockpile your organic matter.The bins are easy
+            to build and can accommodate large volumes. Having multiple bins allows the easy transfer of materials from one bin to another when hot composting. Open bins also keep compost materials tidy and partially hidden from view, making the area
+            less of an eyesore for you and your neighbors.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="border-top: .03em solid lightgray;border-bottom: .03em solid lightgray; width: 100%; margin-left: 0px">
+    <div class="container-fluid col-lg-7 collapse Sdisplay">
+
+      <div style="padding-top: 2.8em">
+        <h2>Tunbler composting</h2>
+        <p class="content">
+          <p class="lead text-justify">Tumblers are usually made out of plastic and are a good solution for those who desire a less labor-intensive method. As closed units that keep materials out of sight, they’re also good for urban and small suburban areas. These units are attached
+            to a support structure that raises them slightly above the ground so that the whole unit can be turned either with a handle or by hand. Homemade versions can be made from a 55-gallon drum or a plastic garbage can with a tight-fitting lid.Tumblers
+            are better used for cold composting; they are not a reliable method for hot composting because it is difficult—if not impossible—to reach and maintain the necessary temperature for killing weed seeds and disease pathogens within the volume
+            available. Because there is no contact with the ground, you should add a shovelful of soil to the mix to increase the diversity of microbial life, which aids in breaking down organic matter. Tumblers do have a limited volume, and compost can
+            be difficult to harvest. Cost typically runs between $15 and $225
+          </p>
+      </div>
+    </div>
+    <div class="col-4 collapse Sdisplay" style="padding-right: 0px">
+      <img style="width: 100%; height: 500px;" src="html5/img/image11.jpg" alt="">
+    </div>
+  </div>
+
+
+  <div class="row " style="border-top: .03em solid lightgray; width:100%">
+    <div class="col-lg-4 collapse Sdisplay">
+      <img style="width: 100%; height: 400px;" src="html5/img/pile.jpg" alt="">
+    </div>
+    <div class="container-fluid col-lg-7 collapse Sdisplay">
+      <div style="padding-top: 2.8em">
+        <h2>Piling composting</h2>
+        <p class="content">
+          <p class="lead text-justify">Piling is a method that sounds exactly like what it is: a heap of mixed, compostable materials. It does not require any additional materials—other than a pitchfork for turning—and the openness of the pile makes that task easy. Piling is another
+            great option for hot and cold composting. It is, however, less desirable in small urban and suburban locations, unless you are able to camouflage the materials from view with a skillful garden design. Piles work in larger landscapes, but do
+            not build them higher than 5 feet tall: They might collapse on themselves and, thereby, lose air pockets that help speed up the composting process.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row " style="border-top: .03em solid lightgray;border-bottom: .03em solid lightgray; width:100%;margin-left: 0px">
+    <div class="container-fluid col-lg-7 collapse Sdisplay">
+
+      <div style="padding-top: 2.8em">
+        <h2>Vermi-composting</h2>
+        <p class="content">
+          <p class="lead text-justify">Vermicomposting uses composting worms -- such as red worms -- to break down organic wastes into castings, aka black gold or worm poop. Currently, vermicomposting is a growing effort that has shown great innovation and scaleability. Vermicomposting
+            is less labor intensive, as it requires little turning/aerating necessary because the worm activity helps to mix, fragment, and aerate waste. This means they can be contained in something as small as a Nature's Little Recyclers Mini-Bin, a
+            five-gallon bucket, or a twenty-gallon bin, and thus creates the ability to have indoor systems. And when vermicomposting outdoors, the space used can grow as large as the Herdsman can feed the worms.
+          </p>
+      </div>
+    </div>
+    <div class="col-lg-4 collapse Sdisplay" style="padding-right: 0px">
+      <img style="width: 100%; height: 400px;" src="html5/img/image1.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="mt-3"></div>
+  <div class="row justify-content-center " style="width:100%">
+    <button type="button" class="btn btn-outline-success" id="display" data-toggle="collapse" data-target=".Sdisplay">Show More</button>
+  </div>
+
+  <div class="mt-3"></div>
+
+
+
+
+
+  <div class="div-gradient text-center align ">
+    <div class="row container-fluid justify-content-center">
+      <!-- Middle section, with gradient, information -->
+      <div class="col-sm-4">
+        <h2>Ambitions</h2>
+        <p class="text-justify">When starting up a nonprofit, it's important to start thinking about where you want to be, years later, if your product ends up being a good idea. Black Gold is at this point and we want to be the next "landfills". With this idea, we have the
+          power to revolutionize the way trash is handled. Yes, it will need the help of hundereds and hundereds of people but, with cooperation and a little hard work, we as a community can handle anything.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <h2>Why we started</h2>
+        <p class="text-justify">Black Gold started to understand the harmful effects landfills have on the Earth and just our overall environment. With composting, communities everywhere can change their habits of sending food off to the landfill and put their food waste to
+          good use. When someone starts composting, they can start a healthy cycle of nutrients. The broken down nutrients can be used within a garden to enhance soil and make veggies and crops healthier. Then when the consumer goes to use the food, it's
+          better for them <em>and</em> the environment.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <h2>Misc.</h2>
+        <p class="text-justify">It's important to rememeber that composting is a form of recycling. Similar to recycling, there are many ways to compost. For example, theres the famous vermicomposting which involves letting worms eat the food scraps and other things within the
+          bin and using their waste as a natural soil enhancer.</p>
+      </div>
+      <h1 class="display-4 text-center">Frequently Asked Questions</h1>
+
+      <div class="container" style="margin-left: 150px;">
+
+        <div class="row">
+          <!-- <div class="container container-fluid" id="accordion"> -->
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+            <button class="btn btn-link text-light " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is the difference between Compost and fertiizer?
+            </button>
+            </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Compost feeds the soil and fertilizer feeds the plants. Fertilizer adds to the soil's nutrient supply, but instead of feeding the soil food web, the ingredients in fertilizers are intended to meet the needs of fast-growing plants.
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          How Long does compost take to be ready to use?
+          </button>
+          </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  By turning more frequently (about every 2-4 weeks), you will produce compost more quickly. Waiting at least two weeks allows the center of the pile to heat up and promotes maximum bacterial activity. The average composter turns the pile every 4-5 weeks.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Which is better Compost or fertiizer?
+          </button>
+          </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Disadvantages of Fertilizer. The biggest difference between fertilizer and compost is that while compost enhances the soil to create a beneficial environment for plants, fertilizer feeds plants. Fertilizers may overload the soil with nutrients. ... Poor
+                  plant health is often due to poor soil conditions.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading4">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+          what are the benefits of composting?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse4" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Benefits of Composting. Enriches soil, helping retain moisture and suppress plant diseases and pests. Encourages the production of beneficial bacteria and fungi that break down organic matter to create humus, a rich nutrient-filled material. Reduces methane
+                  emissions from landfills and lowers your carbon footprint.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading5">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapseThree">
+          How does Composting help the environment?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse5" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Helps soils hold or sequester carbon dioxide. In addition to emission reductions, compost replenishes and revitalizes exhausted farm soils by replacing trace minerals and organic material, reduces soil erosion and helps prevent storm water runoff. Recycling
+                  is an effective way to reduce greenhouse gases.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading6">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapseThree">
+          What are the benefits of composting food waste?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse6" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Recovering and recycling food waste diverts organic materials from landfills thus reducing these emissions. The use of recycled food waste as compost improves soil health and structure; increases drought resistance; and reduces the need for supplemental
+                  water, fertilizers, and pesticides.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading7">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapseThree">
+          what can be used in compost?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse7" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Put the right stuff in. Good things to compost include vegetable peelings, fruit waste, teabags, plant prunings and grass cuttings. These are fast to break down and provide important nitrogen as well as moisture. It's also good to include things such
+                  as cardboard egg boxes, scrunched up paper and fallen leaves.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading8">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapseThree">
+          Why do you even compost?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse8" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Improve Your Soil! Compost returns valuable nutrients to the soil to help maintain soil quality and fertility. Compost is a mild, slow release, natural fertilizer that won't burn plants like chemical fertilizers. ... Provides organic matter and nutrients
+                  which will improve plant growth and lead to better yields.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading9">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+          What is the best material to use in compost?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse9" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  You can use leaves and you can use grass clippings you can use old wine you can use dry cat or dog food.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading10">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapseThree">
+          How often do you have to turn your compost?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse10" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  That being said, a good rule of thumb is to turn a compost tumbler every three to four days and the compost pile every three to seven days. As your compost matures, you can turn the tumbler or pile less frequently.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading11">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapseThree">
+          Is it a good idea to add water to the bin?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse11" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  The composter contents should be moist like a wrung-out sponge. If the contents are too dry, it will take overly long to compost; and if too wet, the contents may begin to smell. If the pile does not decrease in size or generate heat, composting may need
+                  a boost. If the pile is dry, add water - mixing thoroughly.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header" id="heading12">
+                <h5 class="mb-0">
+          <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+          Can you use wine corks in your compost?
+          </button>
+          </h5>
+              </div>
+              <div id="collapse12" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Yes, since it is a natural product, cork can be composted – but with a few warnings. In the case of things like wine corks, make sure they are actually cork and not plastic made to look like cork. Synthetic corks are increasingly common in newer wines
+                  for a number of reasons – but they won't rot down in a compost heap.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row justify-content-center" style="width: 100%">
+    <h1>Meet The Team</h1>
+  </div>
+
+  <div class="container container-fluid">
+    <div class="media">
+      <img class="align-self-start mr-3 rounded-circle img-fluid" src="html5/img/Portrait2.jpg" alt="">
+      <div class="media-body">
+        <h4>Gabriel</h4>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <hr style="border: 0; height: 1px;  background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+    <div class="media">
+      <img class="align-self-start mr-3 rounded-circle img-fluid" src="html5/img/Portrait3.jpg" alt="">
+      <div class="media-body">
+        <h4>Mario</h4>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <hr style="border: 0; height: 1px;  background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+    <div class="media">
+      <img class="align-self-start mr-3 rounded-circle img-fluid" src="html5/img/Portrait1.jpg" alt="">
+      <div class="media-body">
+        <h4>Jonathan</h4>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <!-- <hr style="border: 0; height: 1px;  background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));"> -->
+  </div>
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="js/main.js"></script>
+  <div class="bg-success text-center text-light " style="left:0; bottom: 0; width: 100%; height:30%;margin-bottom: 0px;">
+    Copyright (c) 2018 Copyright Holder All Rights Reserved.
+  </div>
+
+</body>
+
+</html>

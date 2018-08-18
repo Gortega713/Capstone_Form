@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Capstone</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="html5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="html5/css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNav">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+        <div class="collapse navbar-collapse" id="collapsibleNav">
+            <ul class="navbar-nav">
+
+                <!-- First Link (Left to Right) -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <!-- Second Link (Left to Right) -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/Users/gortega713/Capstone 2018/JMG/capstone/aboutus.html">About</a>
+                </li>
+
+                <!-- Third Link (Left to Right) -->
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+
+                <!-- Fourth Link (Left to Right) -->
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact</a>
+                </li>
+            </ul>
+
+            <form class="form-inline" style="margin-left: auto">
+                <input class="form-control float-right" type="text" placeholder="Search">
+                <!-- <button class="btn btn-success float-right" type="submit">Search</button> -->
+                <svg-icon>
+                    <src href="sprite.svg#si-glyph-magnifier" />
+                </svg-icon>
+            </form>
+        </div>
+    </nav>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-responsive" src="html5/img/field.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h2 class="captionText">A nonprofit that only wishes to serve...</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-responsive" src="html5/img/image7.jpg" alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h2 class="captionText">we <em class="font-weight-bold">eliminate</em> food waste, household by household,<br> by composting <br> and, in the end, <em>lower</em> your carbon footprint</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-responsive" src="html5/img/soil.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h2 class="captionText">Welcome to Black Gold</h2>
+                    <div class="carousel-caption indexCaption">
+                        <h6 class="">Mission: To help clean the environment by directly reducing greenhouse gases by composting</h6>
+                        <h6 class="">Vision: Slow down the risks that greenhouse gases impose on the environment and contribute to the fight against climate change</h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+    <div class="row" style="width:100%;">
+        <div class="col-lg-4" >
+            <img style="width: 80%;" src="html5/img/image6.JPG" alt="">
+        </div>
+        <div class="container-fluid col-lg-7" style="margin-left: -2em;">
+            <div style="padding-top: 2.8em">
+            <h2>Closed-Bin</h2>
+            <p class="content" >
+                    Closed bins are usually made from recycled plastic and can come in different shapes—from square to cylindrical. 
+                    All options have a lid to cover the container. These bins are a good cold-composting choice for urban and suburban locations. They do,
+                    however, present some difficulties. They cannot be used for hot composting, for example, because the closed bin makes it difficult to 
+                    maintain the required temperature. The containers also hold a limited volume of material.
+                    <div class="mt-2"></div>
+                    Harvesting from a closed bin can be challenging because the openings are only about 1 foot above soil level. To make the job easier, 
+                    you can move the entire unit to another spot. These bins typically have no bottom, so the compost materials
+                    will drop out when you lift the bin.
+                    <div class="mt-2"></div>
+                    Fork what is at the top of the compost pile into the new bin location, and harvest what has decomposed on the bottom.
+                     Closed bins typically run between $50 and $250. Municipalities sometimes offer this version to residents at a reasonable cost.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="border-top: .03em solid lightgray; width: 100%;  margin-left: 0px">
+            <div class="container-fluid col-lg-7">
+    
+                    <div style="padding-top: 2.8em">
+                    <h2>Lorem ipsum dolor sit amet, consectet</h2>
+                    <p class="content">
+                        orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                        orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                        orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempo</p>
+                    </div>
+            </div>
+        
+        <div class="col-4" style="padding-right: 0px">
+            <img style="width: 100%;" src="html5/img/pile.jpg" alt="">
+        </div>
+    </div>
+    <div class="row " style="border-top: .03em solid lightgray; width: 100%">
+            <div class="col-lg-4">
+                <img style="width: 100%;" src="html5/img/pile.jpg" alt="">
+            </div>
+            <div class="container-fluid col-lg-7 ">
+                <div style="padding-top: 2.8em">
+                <h2>Lorem ipsum dolor sit amet, consectet</h2>
+                <p class="content">
+                    orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                    orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                    orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempo</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="border-top: .03em solid lightgray;border-bottom: .03em solid lightgray; width: 100%; margin-left: 0px">
+                <div class="container-fluid col-lg-7 collapse Sdisplay">
+        
+                        <div style="padding-top: 2.8em">
+                        <h2>Lorem ipsum dolor sit amet, consectet</h2>
+                        <p class="content">
+                            orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                            orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                            orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempo</p>
+                        </div>
+                    </div>
+            <div class="col-4 collapse Sdisplay" style="padding-right: 0px">
+                <img style="width: 100%" src="html5/img/pile.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="row " style="border-top: .03em solid lightgray; width:100%">
+                <div class="col-lg-4 collapse Sdisplay">
+                    <img style="width: 100%" src="html5/img/pile.jpg" alt="">
+                </div>
+                <div class="container-fluid col-lg-7 collapse Sdisplay">
+                    <div style="padding-top: 2.8em">
+                    <h2>Lorem ipsum dolor sit amet, consectet</h2>
+                    <p class="content">
+                        orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                        orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                        orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row " style="border-top: .03em solid lightgray;border-bottom: .03em solid lightgray; width:100%; margin-left: 0px">
+                    <div class="container-fluid col-lg-7 collapse Sdisplay">
+            
+                            <div style="padding-top: 2.8em">
+                            <h2>Lorem ipsum dolor sit amet, consectet</h2>
+                            <p class="content">
+                                orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                                orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempora porro nemo dolores deserunt corrupti, excepturi odio assumenda? Laboriosam obcaecati quod nihil inventore repudiandae consequatur, dolore illum.
+                                orem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo expedita numquam tempo</p>
+                            </div>
+                        </div>
+                <div class="col-lg-4 collapse Sdisplay" style="padding-right: 0px">
+                    <img style="width: 100%" src="html5/img/pile.jpg" alt="">
+                </div>
+            </div>
+
+        <div class="mt-3"></div>
+        <div class="row justify-content-center " style="width:100%">
+                <button type="button" class="btn btn-outline-success" id="display" data-toggle="collapse" data-target=".Sdisplay">Show More</button>
+        </div>
+
+        <div class="mt-3"></div>
+   
+
+    
+
+
+    <div class="div-gradient text-center align ">
+        <div class="row container-fluid justify-content-center">
+            <!-- Middle section, with gradient, information -->
+            <div class="col-sm-4">
+                <h2>Ambitions</h2>
+                <p class="text-justify">When starting up a nonprofit, it's important to start thinking about where you want to be, years later, if your product ends up being a good idea. Black Gold is at this point and we want to be the next "landfills". With this idea, we have
+                    the power to revolutionize the way trash is handled. Yes, it will need the help of hundereds and hundereds of people but, with cooperation and a little hard work, we as a community can handle anything.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h2>Why we started</h2>
+                <p class="text-justify">Black Gold started to understand the harmful effects landfills have on the Earth and just our overall environment. With composting, communities everywhere can change their habits of sending food off to the landfill and put their food waste
+                    to good use. When someone starts composting, they can start a healthy cycle of nutrients. The broken down nutrients can be used within a garden to enhance soil and make veggies and crops healthier. Then when the consumer goes to use
+                    the food, it's better for them <em>and</em> the environment.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h2>Misc.</h2>
+                <p class="text-justify">It's important to rememeber that composting is a form of recycling. Similar to recycling, there are many ways to compost. For example, theres the famous vermicomposting which involves letting worms eat the food scraps and other things
+                    within the bin and using their waste as a natural soil enhancer.</p>
+            </div>
+
+
+        </div>
+    </div>
+
+<div class="row justify-content-center" style="width: 100%">
+    <h1>Meet The Team</h1>
+</div>
+
+<div class="container container-fluid">
+    <div class="media">
+      <img class="align-self-start mr-3 rounded-circle img-fluid" src="html5/img/Portrait2.jpg" alt="">
+      <div class="media-body">
+        <h4>Gabriel</h4>
+        <p class="text-justify blockquote-footer text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <hr style="border: 0; height: 1px;  background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+    <div class="media">
+      <img class="align-self-start mr-3 rounded-circle img-fluid" src="html5/img/Portrait3.jpg" alt="">
+      <div class="media-body">
+        <h4>Mario</h4>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <hr style="border: 0; height: 1px;  background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+    <div class="media">
+      <img class="align-self-start mr-3 rounded-circle img-fluid" src="html5/img/Portrait1.jpg" alt="">
+      <div class="media-body">
+        <h4>Jonathan</h4>
+        <p class="text-justify">I joined Black Gold because I truly supported Gabriel's ideals and what he was pursuing so i wanted to be able to help out in anyway I could </p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <hr style="border: 0; height: 1px;  background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+  </div>
+
+
+
+
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

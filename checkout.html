@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav id="navbar-site" class="navbar navbar-dark bg-success navbar-expand-sm sticky-top">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="Products.html">Products & Service</a></li>
+      </ul>
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control" type="text" placeholder="Search">
+        <i class="fas fa-search" style="font-size: 30px; padding-left: 10px"></i>
+        <!-- <button class="btn btn-success" type="submit">Search</button> -->
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="text-success text-center">Check out here</h1>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </div>
+    </form>
+    <form id="payment" name="payment" method="post" action="co_temp.html">
+      <fieldset id="creditcard">
+        <legend>Credit Information</legend>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="First Name">
+        </div>
+        <fieldset id="cards">
+
+          <label class="cardLabel">Credit Card*</label>
+          <label class="cardLabel">
+                <input name="credit" value="amex" type="radio" required />
+                <img src="co_amex.png" alt="American Express" />
+             </label>
+          <label class="cardLabel">
+                <input name="credit" value="discover" type="radio" />
+                <img src="co_discover.png" alt="Discover" />
+             </label>
+          <label class="cardLabel">
+                <input name="credit" value="master" type="radio"  />
+                <img src="co_master.png" alt="MasterCard" />
+             </label>
+          <label class="cardLabel">
+                <input name="credit" value="visa" type="radio"  />
+                <img src="co_visa.png" alt="Visa" />
+             </label>
+        </fieldset>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Credit Card Number</label>
+          <input type="text" class="form-control" id="name" required type="text" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$" placeholder="Credit Card Number">
+        </div>
+
+
+        <label for="expMonth">Expiration Date*</label>
+        <select id="expMonth" name="expMonth">
+             <option value="mm">mm</option>
+             <option value="01">01</option>
+             <option value="01">02</option>
+             <option value="01">03</option>
+             <option value="01">04</option>
+             <option value="01">05</option>
+             <option value="01">06</option>
+             <option value="01">07</option>
+             <option value="01">08</option>
+             <option value="01">09</option>
+             <option value="01">10</option>
+             <option value="01">11</option>
+             <option value="01">12</option>
+          </select>
+        <span> / </span>
+        <select id="expYear" name="expYear">
+             <option value="yy">yy</option>
+             <option value="2018">2018</option>
+             <option value="2019">2019</option>
+             <option value="2020">2020</option>
+             <option value="2021">2021</option>
+             <option value="2022">2022</option>
+          </select>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">CVC</label>
+          <input type="text" class="form-control" id="name" required pattern="^\d{3,4}$" placeholder="CVC Number">
+        </div>
+
+      </fieldset>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+        </div>
+      </div>
+      <button type="submit" style="margin-bottom: 30px" class="btn btn-primary">Order</button>
+
+    </form>
+  </div>
+  <div class="bg-success text-center text-light " style=" position: fixed; left:0; bottom: 0; width: 100%; height:3%;margin-bottom: 0px;">
+    Copyright (c) 2018 Copyright Holder All Rights Reserved.
+  </div>
+</body>
+
+</html>
