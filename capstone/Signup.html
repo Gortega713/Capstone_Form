@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-success navbar-dark sticky-top">
+    <a class="navbar-brand" href="#">Gecko-Becko</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products & Services</a>
+        </li>
+      </ul>
+      <form class="form-inline" action="/action_page.php" style="margin-left: auto;">
+        <input class="form-control float-right" type="text" placeholder="Search">
+
+
+        <button class="btn btn-success float-right" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container container-fluid">
+    <h2 class="text-center">Club Penguin</h2>
+    <form action="">
+      <div class="form-group">
+        <label for="username">UserName:</label>
+        <input type="username" class="form-control" id="username" placeholder="Enter Username">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" placeholder="enter password">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Confirm Password:</label>
+        <input type="password" class="form-control" id="cnfPassword" placeholder="Confirm password">
+      </div>
+      <button type="button" class="btn btn-outline-success" style="margin-left: 0;">submit</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
