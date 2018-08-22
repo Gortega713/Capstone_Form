@@ -19,16 +19,15 @@ function validateForm(evt) {
     } else {
         evt.returnValue = false;
     }
-
-    validateRequired();
     validatePhoneNumber();
+    validateRequired();
 
 }
 
 // Function to validate required fields
 
 function validateRequired() {
-    var inputElements = document.querySelectorAll("#formFieldset input");
+    var inputElements = document.querySelectorAll("#basciFieldset input");
     var errorDiv = document.getElementById("errorDiv");
     var fieldsetValidity = true;
     var elementLength = inputElements.length;
@@ -70,29 +69,41 @@ function validatePhoneNumber() {
     var phoneElement = document.getElementById("phoneInput");
     var errorDiv = document.getElementById("errorDiv");
     var fieldsetValidity = true;
+    var lettersInPhoneNumber = /[A-Za-z]/ig;
+    var phoneElement = document.getElementById("phoneInput");
 
     try {
-        if () {
-            errorDiv.style.display = "none";
-            phoneElement.style.border = "1px solid black";
-            phoneElement.style.background = "white";
-        } else {
+        // Test for letters inside of the phone number field and if it's blank
+        if (phoneElement.value !== "" && lettersInPhoneNumber.test(phoneElement) === true) {
             phoneElement.style.border = "1px solid red";
             fieldsetValidity = false;
+        } else if (phoneElement.value === "") {
+            phoneElement.style.border = "1px solid red";
+            fieldsetValidity = false;
+        } else {
+            phoneElement.style.border = "1px solid black";
+            phoneElement.style.background = "white";
         }
 
         if (fieldsetValidity === false) {
+            formValidity = false;
             throw "Phone Number cannot have a letter in it"
         } else {
             formValidity = true;
             fieldsetValidity = true;
         }
-    } catch (err){
+    } catch (err) {
         errorDiv.innerHTML = err;
         errorDiv.style.display = "block";
         errorDiv.style.color = "red";
     }
 }
+
+// Function to validate Credit Card Information 
+
+//function validate ccInfo() {
+//    
+//}
 
 // Function to create all event listeners
 
