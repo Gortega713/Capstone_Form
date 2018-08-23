@@ -31,38 +31,40 @@
         </div>
     </nav>
 
-    <form novalidate="novalidate" action="results.html">
-        <fieldset class="form-group w-50" id="basicFieldset">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col"><fieldset class="form-group w-50" id="basicFieldset">
             <!-- Error Div -->
             <div id="errorDiv"></div>
             <!-- Error Div -->
             <div id="errorDiv"></div>
             <!-- First Name -->
             <label for="Fname">First Name</label>
-            <input type="input" id="Fname" class="form-control w-50" name="Fname" />
+            <input type="input" id="Fname" class="form-control w-100" name="Fname" />
             <!-- Last Name -->
             <label for="Lname">Last Name</label>
-            <input type="input" id="Lname" class="form-control w-50" name="Lname" />
+            <input type="input" id="Lname" class="form-control w-100" name="Lname" />
             <!-- Address -->
             <label for="addrInput">Address</label>
-            <input type="input" id="addrInput" class="form-control w-50" name="addrInput" />
+            <input type="input" id="addrInput" class="form-control w-100" name="addrInput" />
             <!-- State -->
             <label for="stateInput">State</label>
-            <input type="input" id="stateInput" class="form-control w-50" name="stateInput" />
+            <input type="input" id="stateInput" class="form-control w-100" name="stateInput" />
             <!-- City -->
             <label for="cityInput">City</label>
-            <input type="input" id="cityInput" class="form-control w-50" name="cityInput" />
+            <input type="input" id="cityInput" class="form-control w-100" name="cityInput" />
             <!-- Phone Number -->
             <label for="phoneInput">Phone Number</label>
-            <input type="input" id="phoneInput" class="form-control w-50" name="cityInput" pattern="/[0-9]/" title="Only Numbers in phone number" />
+            <input type="input" id="phoneInput" class="form-control w-100" name="phoneInput" pattern="/[0-9]/" title="Only Numbers in phone number" />
         </fieldset>
         <!-- Fieldset for submit button -->
         <fieldset class="w-50">
             <!--  Submit Button  -->
             <input type="submit" id="submit">
-        </fieldset>
-        <!-- Fieldset for credit card information -->
-        <fieldset class="form-group float-right w-50" id="ccFieldset">
+        </fieldset></div>
+            <div class="col"><fieldset class="form-group float-right w-50" id="ccFieldset">
             <label for="visa">Visa</label>
             <input type="radio" class="custom-radio" />
             <label for="mastercard">Mastercard</label>
@@ -71,13 +73,30 @@
             <input type="radio" class="custom-radio" />
             <label for="americanExpress">American Express</label>
             <input type="radio" class="custom-radio" />
-        </fieldset>
+        </fieldset></div>
+            <div class="w-100"></div>
+            <div class="col"><fieldset class="form-group w-50" id="textFieldset">
+            <input type="textarea" />
+            <input type="textarea" />
+        </fieldset></div>
+            <div class="col">Some kind of content</div>
+        </div>
+    </div>
+
+
+
+    <form novalidate="novalidate" action="results.html">
+        
+
+
+
+        <!-- Fieldset for credit card information -->
+        
+
         <!-- Fieldset for text questions -->
-        <fieldset class="form-group w-50" id="textFieldset">
-            <label for="americanExpress">American Express</label>
-            <input type="textarea"/>
-            <input type="textarea"/>
-        </fieldset>
+
+        
+
     </form>
 
 </body>
