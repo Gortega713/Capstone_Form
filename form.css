@@ -19,6 +19,15 @@ input {
     background-color: rgb(150, 230, 150);
 }
 
-#box1 {
-    align-content: center;
+#ccFieldset {
+    padding: auto;
 }
+
+#phoneInput {
+    width: 5%;
+}
+
+#phoneInput2 {
+    width: 8%;
+}
+
